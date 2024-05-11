@@ -3,7 +3,7 @@ import io
 from PIL import Image
 
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyCJA1hPNHpbNmU89AAiyAqTqPhZ7Pa_1Dk")
+genai.configure(api_key="AIzaSyC_lXeeUxcuoWt8yRJd524bnAh450LUKaQ")
 model = genai.GenerativeModel("gemini-pro-vision")
 
 st.title("สัตว์ สิ่งของ ผลไม้ ดอกไม้")
